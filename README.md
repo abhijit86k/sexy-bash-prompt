@@ -1,3 +1,9 @@
+Functionality from this project has been incorporated into my older script for
+obtaining a colored bash prompt colash.
+
+See the colash directory here in my [Bashlets Project](https://github.com/abhijit86k/bashlets)
+
+
 # sexy-bash-prompt [![Build status](https://travis-ci.org/twolfson/sexy-bash-prompt.png?branch=master)](https://travis-ci.org/twolfson/sexy-bash-prompt)
 
 [Bash][bash] prompt with colors, git statuses, and git branches.
@@ -226,3 +232,33 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 Copyright (c) 2013 Todd Wolfson
 
 Licensed under the MIT license.
+COLASH
+=======
+Gives you a colored bash prompt with lots of customisable options for the prompt text
+
+Installation:
+-------------
+1. Copy the file colash to your ~/bin and ensure that execute permissions are enabled
+2. Add an alias
+	add the following line 	to the file ~/.bash_aliases
+	(note the single quote starting after the = symbol):
+		alias colash='source ~/bin/colash'
+
+Usage:
+------
+$> colash [options]
+
+Try
+$> colash help
+to show all valid optionss
+
+
+NOTE:
+The script "gitsymbols" in this directory was taken from the project
+"sexy-bash-symbols" on github originally licensed under the MIT license. The
+original license text can be seen in the file LICENSE-MIT.
+
+See:
+https://github.com/abhijit86k/sexy-bash-prompt for the fork
+ or 
+https://github.com/twolfson/sexy-bash-prompt for the original repo.
